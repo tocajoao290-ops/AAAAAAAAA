@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PDF to Markdown AI Converter</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0KOVEMmg9fzsHhfstaffoHsxS01TjK3DUKAEitnTHGJoFsEVTEBCYo" crossorigin="anonymous">
+    <script>
+      tailwind.config = {
+        darkMode: 'media', // or 'class'
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.26.0",
+    "react-markdown": "https://aistudiocdn.com/react-markdown@^10.1.0",
+    "rehype-katex": "https://aistudiocdn.com/rehype-katex@^7.0.1",
+    "remark-gfm": "https://aistudiocdn.com/remark-gfm@^4.0.1"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-slate-100 dark:bg-slate-900">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,5 @@
+{
+  "name": "Remix: PDF to Markdown AI Converter",
+  "description": "Upload a PDF and leverage AI to convert it into a beautifully formatted Markdown document, complete with LaTeX for equations and clean HTML for complex structures.",
+  "requestFramePermissions": []
+}
